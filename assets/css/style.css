@@ -1,0 +1,121 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Montserrat", "Roboto", "Allerta", sans-serif;
+}
+
+:root{
+    --title_height: 100px;
+    --font-margin-right: 123px;
+}
+
+.margin-top{
+    margin-top: 32px;
+}
+
+a {
+    text-decoration: none;
+    color:palevioletred;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: rgb(147, 2, 26);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-justify{
+    text-align: justify;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.inline-block{
+    display: inline-block;
+}
+/* Start header */
+header {
+    position: fixed;
+    background-color: rgb(0, 138, 73);
+    color: #fff;
+    height: var(--title_height);
+    width: 100%;
+
+}
+header h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+/* End header */
+/* Start breadcrumbs */
+.breadcrumbs {
+    margin-left: 10%;
+    list-style: none;
+    padding: 10px;
+    font-style: italic;
+
+}
+/* End breadcrumbs */
+
+
+article{
+    width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+
+/* Start section fonts - index.html*/
+section.fonts {
+    background-color: rgb(0, 138, 73);
+    color: #fff;
+}
+
+ol.fonts-use {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.some-useful-fonts{
+    text-align: left;
+    border: #fff solid 3px;
+    padding: 10px 32px;
+}
+
+.Montserrat{
+    font-family: "Montserrat", sans-serif;
+    margin-right: var(--font-margin-right);
+}
+
+.Roboto{
+    font-family: "Roboto", sans-serif;
+    margin-right: var(--font-margin-right);
+
+}
+
+.Source-Serif-Pro{
+    font-family: "Source Serif Pro", serif;
+
+
+}
+/* End section fonts - index.html*/
+main {
+    background-color: #fff;
+    padding-top: var(--title_height);
+}
